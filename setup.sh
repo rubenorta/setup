@@ -8,6 +8,8 @@ sudo apt-get install -y git-core
 git config --global user.name "Ruben Orta Magan"
 git config --global user.email "ruben.orta@gmail.com"
 
+# install heroku tools
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
