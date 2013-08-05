@@ -10,8 +10,8 @@ git clone http://github.com/rubenorta/bitstarter
 cd bitstarter
 heroku login
 heroky keys:add
-heroku apps:destroy rubenorta-bitstarter-s-mooc
-heroku apss:destroy rubenorta-bitstarter-mooc
+heroku apps:destroy rubenorta-bitstarter-s-mooc --confirm rubenorta-bitstarter-s-mooc
+heroku apss:destroy rubenorta-bitstarter-mooc --confirm rubenorta-bitstarter-mooc
 heroku apps:create rubenorta-bitstarter-s-mooc --remote staging-heroku
 heroku apps:create rubenorta-bitstarter-mooc --remote production-heroku
 
