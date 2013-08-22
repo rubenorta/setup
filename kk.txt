@@ -1,0 +1,4 @@
+hola
+esto es 
+un fichero de texto
+verdad?
